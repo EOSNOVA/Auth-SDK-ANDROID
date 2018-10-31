@@ -21,7 +21,8 @@ android {
 }
 
 dependencies {
-    implementation 'io.eosnova:auth-sdk:0.1.1'
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+//    implementation 'io.eosnova:auth-sdk:0.2.0'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation 'junit:junit:4.12'

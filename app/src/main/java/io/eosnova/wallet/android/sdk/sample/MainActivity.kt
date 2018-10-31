@@ -15,7 +15,6 @@ import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
 
-
     private val callBack = object : OnNovaListener {
         override fun callback(map: HashMap<String, String>) {
             text.text = ""
@@ -29,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
+
+        NovaAuth.test = true
+        NovaAuth.test_url = "http://dev.cryptolions.io:38888"
 
         // Account
         account.setOnClickListener {

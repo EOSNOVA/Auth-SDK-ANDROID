@@ -1,14 +1,25 @@
-# Download
-```groovy
-dependencies {
-  implementation 'io.eosnova:auth-sdk:0.1.1'
-}
-```
-
 # Nova Wallet
 [Download App][1]
 
 For more information please see [the website][2].
+
+
+# Download
+```groovy
+dependencies {
+  implementation 'io.eosnova:auth-sdk:0.2.0'
+}
+```
+
+# Testnet
+```kotlin
+
+  // Android Wallet Version 1.1.4 +
+  // AuthSdk Version 0.2.0 +  
+
+  NovaAuth.test = true
+  NovaAuth.test_url = "http://dev.cryptolions.io:38888" // optional
+```
 
 # Read Account Info
 ```kotlin

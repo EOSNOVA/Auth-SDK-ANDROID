@@ -1,1 +1,1 @@
-include ':app', ':sdk_nova'
+include ':app'
