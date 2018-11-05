@@ -7,18 +7,40 @@ For more information please see [the website][2].
 # Download
 ```groovy
 dependencies {
-  implementation 'io.eosnova:auth-sdk:0.2.0'
+  implementation 'io.eosnova:auth-sdk:0.3.0'
 }
 ```
 
 # Testnet
+Android Wallet Version `1.1.4 +` <br>
+AuthSdk Version `0.2.0 +`  
+
 ```kotlin
-
-  // Android Wallet Version 1.1.4 +
-  // AuthSdk Version 0.2.0 +  
-
   NovaAuth.test = true
   NovaAuth.test_url = "http://dev.cryptolions.io:38888" // optional
+```
+
+# Use Activity (Optional)
+AuthSdk Version `0.3.0 +`
+
+If you use `Activity` instead of `AppCompatActivity`, please change `NovaAuth.class` to `NovaAuthCompat.class`.<br>
+Also, `register` and `unregister` are required.
+
+``` kotlin
+
+NovaAuth.class to NovaAuthCompat.class
+
+override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+       ...
+       NovaAuthCompat.register(this)
+       ...
+}
+
+override fun onDestroy() {
+       super.onDestroy()
+       NovaAuthCompat.unregister(this)
+}
 ```
 
 # Read Account Info
