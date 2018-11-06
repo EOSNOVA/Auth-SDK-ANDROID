@@ -7,7 +7,7 @@ For more information please see [the website][2].
 # Download
 ```groovy
 dependencies {
-  implementation 'io.eosnova:auth-sdk:0.3.0'
+  implementation 'io.eosnova:auth-sdk:0.3.2'
 }
 ```
 
@@ -17,7 +17,7 @@ AuthSdk Version `0.2.0 +`
 
 ```kotlin
   NovaAuth.test = true
-  NovaAuth.test_url = "http://dev.cryptolions.io:38888" // optional
+  NovaAuth.testUrl = "http://dev.cryptolions.io:38888" // optional
 ```
 
 # Use Activity (Optional)
