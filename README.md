@@ -1,6 +1,8 @@
-# Nova Wallet
-[Download App][1]
+![](images/app2app.png)
 
+# NOVA Wallet
+[Download App][1]<br>
+[YouTube][5]<br>
 For more information please see [the website][2].
 
 
@@ -20,7 +22,6 @@ For more information please see [the website][2].
 ```
 
 # Use Activity (Optional)
-AuthSdk Version `0.3.0 +`
 
 If you use `Activity` instead of `AppCompatActivity`, please change `NovaAuth.class` to `NovaAuthCompat.class`.<br>
 Also, `register` and `unregister` are required.
@@ -187,4 +188,5 @@ please see [JavaActivity][3].
 [1]: http://bit.ly/2CySJnr
 [2]: http://bit.ly/2Lj7Bdu
 [3]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/app/src/main/java/io/eosnova/wallet/android/sdk/sample/MainJavaActivity.java
-[4]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/testnet_apk/nova_testnet.apk
+[4]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/apk/nova_testnet.apk
+[5]: https://www.youtube.com/watch?v=-nfbC_U9xcM
