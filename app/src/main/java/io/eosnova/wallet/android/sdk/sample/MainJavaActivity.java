@@ -45,7 +45,6 @@ public class MainJavaActivity extends AppCompatActivity {
 
 
         NovaAuth.INSTANCE.setTest(true);
-        NovaAuth.INSTANCE.setTestUrl("http://dev.cryptolions.io:38888");
 
 
         // Account

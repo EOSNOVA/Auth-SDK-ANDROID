@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         NovaAuth.test = true
-        NovaAuth.testUrl = "http://dev.cryptolions.io:38888"
 
         // Account
         account.setOnClickListener {

@@ -35,7 +35,6 @@ class MainCompatActivity : Activity() {
         toolbar.title = "NOVA"
 
         NovaAuthCompat.test = true
-        NovaAuthCompat.testUrl = "http://dev.cryptolions.io:38888"
         NovaAuthCompat.register(this)
 
         // Account
