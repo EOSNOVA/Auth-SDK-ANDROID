@@ -20,6 +20,41 @@ AuthSdk Version `0.2.0 +`
   NovaAuth.testUrl = "http://dev.cryptolions.io:38888" // optional
 ```
 
+# Java
+
+please see [JavaActivity][3].
+
+```java
+
+...
+
+// Testnet
+NovaAuth.INSTANCE.setTest(true);
+
+// Account
+findViewById(R.id.account).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        NovaAuth.INSTANCE.requestAccount(MainJavaActivity.this, callback);
+    }
+});
+
+// Transfer
+findViewById(R.id.transfer).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        NovaTransfer transfer = new NovaTransfer(
+                "shinhyo", "eosio.token", "emart", 0.0001, 4, "EOS", "from EOSNOVA"
+        );
+        NovaAuth.INSTANCE.requestTransfer(MainJavaActivity.this, transfer, callback);
+    }
+});
+
+...
+
+```
+
+
 # Use Activity (Optional)
 AuthSdk Version `0.3.0 +`
 
@@ -153,3 +188,4 @@ val callBack = object : OnNovaListener {
 
 [1]: http://bit.ly/2CySJnr
 [2]: http://bit.ly/2Lj7Bdu
+[3]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/app/src/main/java/io/eosnova/wallet/android/sdk/sample/MainJavaActivity.java
