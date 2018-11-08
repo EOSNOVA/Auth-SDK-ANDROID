@@ -22,6 +22,7 @@
 
         <activity android:name=".MainCompatActivity" />
         <activity android:name=".MainJavaActivity" />
+        <activity android:name=".MainJavaCompatActivity" />
 
     </application>
 

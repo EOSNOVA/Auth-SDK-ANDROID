@@ -45,7 +45,7 @@ Also, `register` and `unregister` are required.
 
 # Java
 
-please see [JavaActivity][3].
+please see [JavaActivity][3], [JavaCompatActivity][6].
 
 ```java
 
@@ -190,3 +190,4 @@ please see [JavaActivity][3].
 [3]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/app/src/main/java/io/eosnova/wallet/android/sdk/sample/MainJavaActivity.java
 [4]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/apk/nova_testnet.apk
 [5]: https://www.youtube.com/watch?v=-nfbC_U9xcM
+[6]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/app/src/main/java/io/eosnova/wallet/android/sdk/sample/MainJavaCompatActivity.java
