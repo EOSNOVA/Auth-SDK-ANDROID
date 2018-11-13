@@ -1,4 +1,4 @@
-![](images/app2app.png)
+![](images/app2app.jpg)
 
 # NOVA Wallet
 [Download App][1]<br>
