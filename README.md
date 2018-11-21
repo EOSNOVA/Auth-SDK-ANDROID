@@ -9,7 +9,7 @@ For more information please see [the website][2].
 # Gradle
 ```groovy
     dependencies {
-        implementation 'io.eosnova:auth-sdk:0.3.4'
+        implementation 'io.eosnova:auth-sdk:1.0.0'
     }
 ```
 
