@@ -14,9 +14,10 @@ For more information please see [the website][2].
 ```
 
 # Testnet
-`http://dev.cryptolions.io:38888`
+`http://dev.cryptolions.io:38888` [Junglenet.apk][4]<br> 
+`http://jungle2.cryptolions.io` [Junglenet2.apk][7] <br>
+apk is required!!
 
-[Testnet.apk][4] is required!!
 ```kotlin
     NovaAuth.test = true
 ```
@@ -191,3 +192,4 @@ please see [JavaActivity][3], [JavaCompatActivity][6].
 [4]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/apk/nova_testnet.apk
 [5]: https://www.youtube.com/watch?v=-nfbC_U9xcM
 [6]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/app/src/main/java/io/eosnova/wallet/android/sdk/sample/MainJavaCompatActivity.java
+[7]: https://github.com/EOSNOVA/Auth-SDK-ANDROID/blob/master/apk/nova_testnet_2.apk
