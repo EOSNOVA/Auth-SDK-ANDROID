@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="io.eosnova.wallet.android.sdk.sample">
 
     <application
@@ -8,11 +9,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".app.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +22,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainCompatActivity" />
-        <activity android:name=".MainJavaActivity" />
-        <activity android:name=".MainJavaCompatActivity" />
+        <activity android:name=".eos.EosJavaActivity" />
+        <activity android:name=".eos.EosJavaAppCompatActivity" />
+        <activity android:name=".eos.EosKotlinAppCompatActivity" />
+        <activity android:name=".klaytn.KlaytnJavaActivity" />
+        <activity android:name=".klaytn.KlaytnJavaAppCompatActivity" />
+        <activity android:name=".klaytn.KlaytnKotlinAppCompatActivity" />
 
     </application>
 
